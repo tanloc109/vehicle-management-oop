@@ -1,0 +1,351 @@
+run:
+Welcome to Vehicle Management - @ 2023 by SE171129 - Pham Tan Loc
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 1
+Create a vehicle.
+Input your vehicle id: vh01
+Input your vehicle name: Altis
+Input your vehicle color: white
+Input your vehicle price: 800000
+Input your vehicle brand: toyota
+Input your vehicle type: xedan
+Input your vehicle product year: 2023
+Add new vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 1
+Create a vehicle.
+Input your vehicle id: vh02
+Input your vehicle name: 320i
+Input your vehicle color: black
+Input your vehicle price: 1400000
+Input your vehicle brand: bmw
+Input your vehicle type: sport
+Input your vehicle product year: 2025
+Input your vehicle product year: 2024
+Add new vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 1
+Create a vehicle.
+Input your vehicle id: vh01
+Vehicle id cannot duplicate or empty. Please try again.
+Input your vehicle id: vh02
+Vehicle id cannot duplicate or empty. Please try again.
+Input your vehicle id: vh03
+Input your vehicle name: camry
+Input your vehicle color: red
+Input your vehicle price: 1200000
+Input your vehicle brand: toyota
+Input your vehicle type: xedan D
+Input your vehicle product year: 2019
+Add new vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 2
+Input id of vehicle to check exist or not: vh04
+Vehicle is does not exist.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 2
+Input id of vehicle to check exist or not: vh03
+Vehicle is exist.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 3
+Input id of vehicle to update: vh02
+Input your vehicle id: vh02
+Vehicle id cannot duplicate or empty. Please try again.
+Input your vehicle id: vh04
+Input your vehicle name: 320i
+Input your vehicle color: black
+Input your vehicle price: 1400000
+Input your vehicle brand: bmw
+Input your vehicle type: sport
+Input your vehicle product year: 2024
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 1
+Input vehicle id to search: vh01
+Vehicle{id=vh01, name=Altis, color=white, price=800000, brand=toyota, type=xedan, productYear=2023}
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 2
+Input vehicle name to search: 320i
+Vehicle{id=vh04, name=320i, color=black, price=1400000, brand=bmw, type=sport, productYear=2024}
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 2
+Input vehicle name to search: 30
+Vehicle does not exits.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 2
+Input vehicle name to search: 32
+Vehicle{id=vh04, name=320i, color=black, price=1400000, brand=bmw, type=sport, productYear=2024}
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 6
+----------------MENU-----------------
+|1 - Show all vehicle                |
+|2 - Show by price                   |
+-------------------------------------
+Input your choice: 1
+Vehicle{id=vh01, name=Altis, color=white, price=800000, brand=toyota, type=xedan, productYear=2023}
+Vehicle{id=vh04, name=320i, color=black, price=1400000, brand=bmw, type=sport, productYear=2024}
+Vehicle{id=vh03, name=camry, color=red, price=1200000, brand=toyota, type=xedan D, productYear=2019}
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 6
+----------------MENU-----------------
+|1 - Show all vehicle                |
+|2 - Show by price                   |
+-------------------------------------
+Input your choice: 2
+Input max price: 400000
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 6
+----------------MENU-----------------
+|1 - Show all vehicle                |
+|2 - Show by price                   |
+-------------------------------------
+Input your choice: 2
+Input max price: 2000000
+Vehicle{id=vh04, name=320i, color=black, price=1400000, brand=bmw, type=sport, productYear=2024}
+Vehicle{id=vh03, name=camry, color=red, price=1200000, brand=toyota, type=xedan D, productYear=2019}
+Vehicle{id=vh01, name=Altis, color=white, price=800000, brand=toyota, type=xedan, productYear=2023}
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 7
+Save all vehicles to file success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 8
+----------------MENU-----------------
+|1 - Print all                       |
+|2 - Print by year                   |
+-------------------------------------
+Input your choice: 1
+Vehicle{id=vh04, name=320i, color=black, price=1400000, brand=bmw, type=sport, productYear=2024}
+Vehicle{id=vh03, name=camry, color=red, price=1200000, brand=toyota, type=xedan D, productYear=2019}
+Vehicle{id=vh01, name=Altis, color=white, price=800000, brand=toyota, type=xedan, productYear=2023}
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 8
+----------------MENU-----------------
+|1 - Print all                       |
+|2 - Print by year                   |
+-------------------------------------
+Input your choice: 2
+Input max price: 100000000
+Input max price: 2000000
+Input max price: 2000
+Vehicle{id=vh03, name=camry, color=red, price=1200000, brand=toyota, type=xedan D, productYear=2019}
+Vehicle{id=vh01, name=Altis, color=white, price=800000, brand=toyota, type=xedan, productYear=2023}
+Vehicle{id=vh04, name=320i, color=black, price=1400000, brand=bmw, type=sport, productYear=2024}
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 4
+Input vehicle id to delete: vh02
+Does not found vehicle with vehicle id vh02
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 4
+Input vehicle id to delete: vh03
+Delete vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 

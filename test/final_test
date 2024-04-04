@@ -1,0 +1,561 @@
+run:
+Welcome to Vehicle Management - @ 2023 by SE171129 - Pham Tan Loc
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 1
+Create a vehicle.
+Input your vehicle id: VH001
+Input your vehicle name: 320i
+Input your vehicle color: while
+Input your vehicle price: 1400000
+Input your vehicle brand: bmw
+Input your vehicle type: sport
+Input your vehicle product year: 2024
+Add new vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 1
+Create a vehicle.
+Input your vehicle id: vh001
+Vehicle id cannot duplicate or empty. Please try again.
+Input your vehicle id: VH002
+Input your vehicle name: camry
+Input your vehicle color: red
+Input your vehicle price: 1200000
+Input your vehicle brand: toyota
+Input your vehicle type: xedanD
+Input your vehicle product year: 2021
+Add new vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 1
+Create a vehicle.
+Input your vehicle id: Vh002
+Vehicle id cannot duplicate or empty. Please try again.
+Input your vehicle id: Vh004
+Input your vehicle name: elantra
+Input your vehicle color: black
+Input your vehicle price: 700000
+Input your vehicle brand: huyndai
+Input your vehicle type: xedan C
+Input your vehicle product year: 2022
+Add new vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 1
+Create a vehicle.
+Input your vehicle id: Vh003
+Input your vehicle name: Tucson
+Input your vehicle color: blue
+Input your vehicle price: 900000
+Input your vehicle brand: hyundai
+Input your vehicle type: CUV
+Input your vehicle product year: 2023
+Add new vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 2
+Input id of vehicle to check exist or not: vh005
+Vehicle is does not exist.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 2
+Input id of vehicle to check exist or not: vh001
+Vehicle is exist.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 1
+Input vehicle id to search: vh005
+Vehicle does not exits.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 1
+Input vehicle id to search: vh001
+VH001, 320i, while, 1400000, bmw, sport, 2024
+Search vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 1
+Input vehicle id to search: vh004
+Vh004, elantra, black, 700000, huyndai, xedan C, 2022
+Search vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 2
+Input vehicle name to search: a
+VH002, camry, red, 1200000, toyota, xedanD, 2021
+Vh004, elantra, black, 700000, huyndai, xedan C, 2022
+Search vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 6
+----------------MENU-----------------
+|1 - Show all vehicle                |
+|2 - Show by price                   |
+-------------------------------------
+Input your choice: 1
+VH001, 320i, while, 1400000, bmw, sport, 2024
+VH002, camry, red, 1200000, toyota, xedanD, 2021
+Vh004, elantra, black, 700000, huyndai, xedan C, 2022
+Vh003, Tucson, blue, 900000, hyundai, CUV, 2023
+Show all vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 2
+Input vehicle name to search: i
+VH001, 320i, while, 1400000, bmw, sport, 2024
+Search vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 6
+----------------MENU-----------------
+|1 - Show all vehicle                |
+|2 - Show by price                   |
+-------------------------------------
+Input your choice: 2
+Input max price: 800000
+Vh004, elantra, black, 700000, huyndai, xedan C, 2022
+Show vehicle by price success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 6
+----------------MENU-----------------
+|1 - Show all vehicle                |
+|2 - Show by price                   |
+-------------------------------------
+Input your choice: 2
+Input max price: 1500000
+VH001, 320i, while, 1400000, bmw, sport, 2024
+VH002, camry, red, 1200000, toyota, xedanD, 2021
+Vh003, Tucson, blue, 900000, hyundai, CUV, 2023
+Vh004, elantra, black, 700000, huyndai, xedan C, 2022
+Show vehicle by price success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 2
+Input vehicle name to search: c
+VH002, camry, red, 1200000, toyota, xedanD, 2021
+Vh003, Tucson, blue, 900000, hyundai, CUV, 2023
+Search vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 7
+Save all vehicles to file success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 8
+----------------MENU-----------------
+|1 - Print all                       |
+|2 - Print by year                   |
+-------------------------------------
+Input your choice: 1
+VH001,  320i,  while, 1400000,  bmw,  sport, 2024
+VH002,  camry,  red, 1200000,  toyota,  xedanD, 2021
+Vh003,  Tucson,  blue, 900000,  hyundai,  CUV, 2023
+Vh004,  elantra,  black, 700000,  huyndai,  xedan C, 2022
+Print all vehicle from file is success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 8
+----------------MENU-----------------
+|1 - Print all                       |
+|2 - Print by year                   |
+-------------------------------------
+Input your choice: 2
+Input min year: 2025
+No vehicle in file have product year after 2025
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 8
+----------------MENU-----------------
+|1 - Print all                       |
+|2 - Print by year                   |
+-------------------------------------
+Input your choice: 2
+Input min year: 2023
+Vh003,  Tucson,  blue, 900000,  hyundai,  CUV, 2023
+VH001,  320i,  while, 1400000,  bmw,  sport, 2024
+Show vehicles after 2023 success
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 3
+Input id of vehicle to update: vh005
+Vehicle is does not exist.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 2
+Input id of vehicle to check exist or not: vh002
+Vehicle is exist.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 3
+Input id of vehicle to update: vh002
+Input your vehicle id: vh002
+Input your vehicle name: Camry
+Input your vehicle color: red
+Input your vehicle price: 1200000
+Input your vehicle brand: toyota
+Input your vehicle type: xedan D
+Input your vehicle product year: 2024
+Update vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 6
+----------------MENU-----------------
+|1 - Show all vehicle                |
+|2 - Show by price                   |
+-------------------------------------
+Input your choice: 1
+VH001, 320i, while, 1400000, bmw, sport, 2024
+vh002, Camry, red, 1200000, toyota, xedan D, 2024
+Vh003, Tucson, blue, 900000, hyundai, CUV, 2023
+Vh004, elantra, black, 700000, huyndai, xedan C, 2022
+Show all vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 3
+Input id of vehicle to update: vh005
+Vehicle is does not exist.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 4
+Input vehicle id to delete: vh002
+Are you sure want to delete vehicle have code: vh002 (y/n):yes
+Delete request has been cancelled.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 4
+Input vehicle id to delete: vh002
+Are you sure want to delete vehicle have code: vh002 (y/n):n
+Delete request has been cancelled.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 4
+Input vehicle id to delete: vh002
+Are you sure want to delete vehicle have code: vh002 (y/n):y
+Delete vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 1
+Input vehicle id to search: vh002
+Vehicle does not exits.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 6
+----------------MENU-----------------
+|1 - Show all vehicle                |
+|2 - Show by price                   |
+-------------------------------------
+Input your choice: 1
+VH001, 320i, while, 1400000, bmw, sport, 2024
+Vh003, Tucson, blue, 900000, hyundai, CUV, 2023
+Vh004, elantra, black, 700000, huyndai, xedan C, 2022
+Show all vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 

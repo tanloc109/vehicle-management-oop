@@ -1,0 +1,258 @@
+run:
+Welcome to Vehicle Management - @ 2023 by SE171129 - Pham Tan Loc
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 1
+Create a vehicle.
+Input your vehicle id: Vh001
+Input your vehicle name: 320i
+Input your vehicle color: white
+Input your vehicle price: 1400000
+Input your vehicle brand: bmw
+Input your vehicle type: sport
+Input your vehicle product year: 2024
+Add new vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 1
+Create a vehicle.
+Input your vehicle id: vh002
+Input your vehicle name: altis
+Input your vehicle color: black
+Input your vehicle price: 800000
+Input your vehicle brand: toyota
+Input your vehicle type: xedan
+Input your vehicle product year: 2021
+Add new vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 1
+Create a vehicle.
+Input your vehicle id: vh001
+Vehicle id cannot duplicate or empty. Please try again.
+Input your vehicle id: 
+Input text!!!
+Input your vehicle id: vh003
+Input your vehicle name: elan
+
+Input your vehicle color: Input text!!!
+Input your vehicle color: red
+Input your vehicle price: 600000
+Input your vehicle brand: huyndai
+Input your vehicle type: xedan c
+Input your vehicle product year: 2025
+Add new vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 2
+Input id of vehicle to check exist or not: vh004
+Vehicle is does not exist.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 2
+Input id of vehicle to check exist or not: vh003
+Vehicle is exist.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 2
+Input id of vehicle to check exist or not: vh004
+Vehicle is does not exist.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 3
+Input id of vehicle to update: vh003
+Input your vehicle id: vh003
+Input your vehicle name: elantra
+Input your vehicle color: red
+Input your vehicle price: 700000
+Input your vehicle brand: huyndai
+Input your vehicle type: xedan c
+Input your vehicle product year: 2025
+Update vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 1
+Input vehicle id to search: vh001
+Vh001, 320i, white, 1400000, bmw, sport, 2024
+Search vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 5
+----------------MENU-----------------
+|1 - Search vehicle by id            |
+|2 - Search vehicle by name          |
+-------------------------------------
+Input your choice: 2
+Input vehicle name to search: e
+vh003, elantra, red, 700000, huyndai, xedan c, 2025
+Search vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 6
+----------------MENU-----------------
+|1 - Show all vehicle                |
+|2 - Show by price                   |
+-------------------------------------
+Input your choice: 1
+Vh001, 320i, white, 1400000, bmw, sport, 2024
+vh002, altis, black, 800000, toyota, xedan, 2021
+vh003, elantra, red, 700000, huyndai, xedan c, 2025
+Show all vehicle success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 6
+----------------MENU-----------------
+|1 - Show all vehicle                |
+|2 - Show by price                   |
+-------------------------------------
+Input your choice: 2
+Input max price: 2000000
+Vh001, 320i, white, 1400000, bmw, sport, 2024
+vh002, altis, black, 800000, toyota, xedan, 2021
+vh003, elantra, red, 700000, huyndai, xedan c, 2025
+Show vehicle by price success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 7
+Save all vehicles to file success.
+----------------MENU-----------------
+|1 - Add new vehicle                |
+|2 - Check exits vehicle            |
+|3 - Update vehicle                 |
+|4 - Delete vehicle                 |
+|5 - Search vehicle                 |
+|6 - Display all vehicle            |
+|7 - Save all vehicle to file       |
+|8 - Print all vehicle from the file|
+|9 - Quit application               |
+-------------------------------------
+Input your choice: 8
+----------------MENU-----------------
+|1 - Print all                       |
+|2 - Print by year                   |
+-------------------------------------
+Input your choice: 1
+Exception in thread "main" java.lang.NumberFormatException: For input string: " 2024"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at dbo.VehicleFileManagerment.readFile(VehicleFileManagerment.java:47)
+	at viewer.VehicleManagement.printAllVehicleFromFile(VehicleManagement.java:302)
+	at viewer.VehicleManagement.printVehicleList(VehicleManagement.java:292)
+	at viewer.VehicleManagement.main(VehicleManagement.java:64)
+C:\Users\Admin\AppData\Local\NetBeans\Cache\17\executor-snippets\run.xml:111: The following error occurred while executing this line:
+C:\Users\Admin\AppData\Local\NetBeans\Cache\17\executor-snippets\run.xml:94: Java returned: 1
+BUILD FAILED (total time: 4 minutes 17 seconds)
